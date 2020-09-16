@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import FirstComponent from './FirstComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <FirstComponent/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -24,3 +26,4 @@ function App() {
 }
 
 export default App;
+
